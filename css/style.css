@@ -1178,6 +1178,8 @@ body {
 .item-tile-catalog .tile-title-wrap {
   margin: 0 0 24px 0;
   margin: 0 0 2.4rem 0;
+  display: block;
+  position: relative;
 }
 .item-tile-catalog .tile-photo-wrap {
   display: block;
@@ -1202,6 +1204,9 @@ body {
 .item-tile-catalog .tile-photo:before {
   padding-top: 125.7%;
 }
+.item-tile-catalog .sl-wrap {
+  z-index: 7;
+}
 .item-tile-catalog .tile-title {
   display: -ms-flexbox;
   display: flex;
@@ -1215,6 +1220,7 @@ body {
   font-size: 3.3rem;
   line-height: 36px;
   line-height: 3.6rem;
+  transition: all ease 0.2s;
   font-weight: bold;
   font-family: 'Playfair Display', serif;
 }
