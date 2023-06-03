@@ -1,27 +1,116 @@
 /* ----------------------------------- *\
 			forms elements styles
 \* ----------------------------------- */
-textarea,
-input[type="text"],
-input[type="password"],
-input[type="email"],
-input[type="number"],
-input[type="range"],
-input[type="search"],
-input[type="tel"],
-input[type="url"] {
-	
+.frm-popup {
+    .frm-title-wrap {
+        margin-bottom: 4rem;
+        font-size: (20/18em);
+    }
+    .frm-title {
+        display: block;
+        font-size: 3.2rem;
+        line-height: 1.1;
+        margin: 0 0 0.4em 0;
+        font-weight: bold;
+        color: #fff;
+        position: relative;
+        .ft;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    .frm-row {
+        display: block;
+        margin-bottom: 13px;
+    }
+    .frm-row-submit {
+        display: flex;
+        margin: 0;
+        padding-top: 17px;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    .field-submit {
+        flex-shrink: 0;
+        width: auto;
+    }
+    .field-info {
+        display: block;
+        flex: 1;
+        width: auto;
+        font-size: 14px;
+        line-height: 18px;
+        padding: 0 0 0 4.8rem;
+        a {
+            &:not(:hover) {
+                color: inherit;
+            }
+        }
+    }
+    .btn {
+        height: 50px;
+        padding: 0 24px;
+        font-size: 16px;
+    }
 }
-textarea {
-	height: 100px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	resize: none;
-}
-.btn,
-button,
-input[type="submit"] {
-	
+.frm-field-input {
+    display: block;
+    position: relative;
+    font-size: 18px;
+    .field-title {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: #9d9d9d;
+        line-height: 20px;
+        padding: (10/18em) 10px 0 (18/18em);
+        font-weight: 400;
+        z-index: 3;
+        pointer-events: none;
+    }
+    .field-title-text {
+        display: inline;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .form-input {
+        height: (70/18em);
+        border: 2px solid #2b2931;
+        background: #2b2931;
+        padding: (20/18em) (50/18em) 0 (17/18em);
+        font-size: 1em;
+        font-weight: bold;
+        color: #fff;
+        transition: all ease 0.2s;
+        &:focus, &.inp-valid {
+            border-color: var(--clr-att);
+        }
+    }
+    .frm-ico {
+        width: 24px;
+        height: 24px;
+        top: 50%;
+        right: (28/18em);
+        margin-top: -12px;
+        margin-right: -12px;
+        z-index: 3;
+        pointer-events: none;
+        position: absolute;
+    }
+    [placeholder]::-webkit-input-placeholder {color: #fff;}
+    [placeholder]:-moz-placeholder {color: #fff;}
+    [placeholder]::-moz-placeholder {color: #fff;}
+    [placeholder]:-ms-input-placeholder {color: #fff;}
+    &.inp-valid {
+        .form-input {
+            border-color: var(--clr-att);
+        }
+    }
 }
 .frm-row,
 .frm-field,
@@ -30,6 +119,10 @@ input[type="submit"] {
     flex-wrap: wrap;
 	position: relative;
 	line-height: 1;
+}
+.frm-field {
+    display: block;
+    width: 100%;
 }
 .frm-select {
 	position: relative;

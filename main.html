@@ -9,28 +9,509 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="./css/swipebox.min.css" />
     <link rel="stylesheet" href="./css/slick.css" />
     <link rel="stylesheet" href="./css/style.min.css" />
 </head>
 
 <body>
     <!-- wrap -->
-    <div class="wrap">
+    <div class="wrap wrap-main">
 
 
         <!-- header -->
         <header class="header">
             <div class="inner-wrap">
-                44444
+                <div class="header-main-panel">
+                    <div class="logo-wrap">
+                        <a href="" class="logo">
+                            <img src="./img/main/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="contacts-wrap">
+                        <div class="cnt-wrap">
+                            <div class="cnt-address">
+                                <div class="cnt-title">Заводской</div>
+                                <p>г. Саратов, пр-т Энтузиастов 50</p>
+                            </div>
+                            <div class="cnt-phones">
+                                <div class="cnt-phone">
+                                    <a href="tel:88452460112" class="link-phone">+7 (8452) 46-01-12</a>
+                                </div>
+                                <div class="cnt-phone">
+                                    <a href="" class="btn-action-ico button-message">
+                                        <img src="./img/icons/viber.png" alt="">
+                                    </a>
+                                    <a href="" class="btn-action-ico button-message">
+                                        <img src="./img/icons/whatsapp.png" alt="">
+                                    </a>
+                                    <a href="tel:89371427319" class="link-phone">+7 937 142 73 19</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cnt-wrap">
+                            <div class="cnt-address">
+                                <div class="cnt-title">центр</div>
+                                <p>г. Саратов, Т.Г. Шевшенко 38/48</p>
+                            </div>
+                            <div class="cnt-phones">
+                                <div class="cnt-phone">
+                                    <a href="tel:88452460101" class="link-phone">+7 (8452) 46-01-01</a>
+                                </div>
+                                <div class="cnt-phone">
+                                    <a href="" class="btn-action-ico button-message">
+                                        <img src="./img/icons/viber.png" alt="">
+                                    </a>
+                                    <a href="" class="btn-action-ico button-message">
+                                        <img src="./img/icons/whatsapp.png" alt="">
+                                    </a>
+                                    <a href="tel:89378060100" class="link-phone">+7 937 806 01 00</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-nav-panel js-popup-wrap">
+                    <a href="" class="btn-action-ico ico-menu btn-popup js-btn-toggle"></a>
+                    <div class="menu-content-block js-popup-block">
+                        <a href="" class="btn-action-ico ico-close js-btn-close btn-popup-close"></a>
+                        <div class="menu-wrap">
+                            <ul class="menu">
+                                <li><a href="">Главная</a></li>
+                                <li><a href="">Прайс</a></li>
+                                <li><a href="">Мастера</a></li>
+                                <li><a href="">Акции</a></li>
+                                <li><a href="">Интерьер</a></li>
+                                <li><a href="">Вакансии</a></li>
+                            </ul>
+                        </div>
+                        <div class="action-wrap">
+                            <a href="" class="btn">Купить сертификат</a>
+                        </div>
+                        <div class="contacts-wrap">
+                            <div class="cnt-wrap">
+                                <div class="cnt-address">
+                                    <div class="cnt-title">Заводской</div>
+                                    <p>г. Саратов, пр-т Энтузиастов 50</p>
+                                </div>
+                                <div class="cnt-phones">
+                                    <div class="cnt-phone">
+                                        <a href="tel:88452460112" class="link-phone">+7 (8452) 46-01-12</a>
+                                    </div>
+                                    <div class="cnt-phone">
+                                        <a href="" class="btn-action-ico button-message">
+                                            <img src="./img/icons/viber.png" alt="">
+                                        </a>
+                                        <a href="" class="btn-action-ico button-message">
+                                            <img src="./img/icons/whatsapp.png" alt="">
+                                        </a>
+                                        <a href="tel:89371427319" class="link-phone">+7 937 142 73 19</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cnt-wrap">
+                                <div class="cnt-address">
+                                    <div class="cnt-title">центр</div>
+                                    <p>г. Саратов, Т.Г. Шевшенко 38/48</p>
+                                </div>
+                                <div class="cnt-phones">
+                                    <div class="cnt-phone">
+                                        <a href="tel:88452460101" class="link-phone">+7 (8452) 46-01-01</a>
+                                    </div>
+                                    <div class="cnt-phone">
+                                        <a href="" class="btn-action-ico button-message">
+                                            <img src="./img/icons/viber.png" alt="">
+                                        </a>
+                                        <a href="" class="btn-action-ico button-message">
+                                            <img src="./img/icons/whatsapp.png" alt="">
+                                        </a>
+                                        <a href="tel:89378060100" class="link-phone">+7 937 806 01 00</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </header>
         <!-- /header -->
 
+        <!--main-top-box-->
+        <div class="main-top-box cnt-section">
+            <img src="./img/top.jpg" alt="" class="img-bg-cover">
+            <div class="top-decor decor01"></div>
+            <div class="top-decor decor02"></div>
+            <div class="top-decor decor03"></div>
+            <div class="inner-wrap">
+                <div class="info-inner-wrap">
+                    <h1 class="h1-title">Салон <br>эротического <br> релакса </h1>
+                    <div class="link-wrap">
+                        <a href="">ВЫБРАТЬ <br> ПРОГРАММУ</a>
+                    </div>
+                </div>
+                <div class="photo-inner-wrap">
+                    <div class="elm-photo">
+                        <img src="./img/top.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/main-top-box-->
+
+        <!--line-slider-box-->
+        <div class="line-slider-box">
+            <div class="line-inner-wrap">
+                <div class="slider-wrap">
+                    <div class="slider">
+                        <div class="sl-wrap">
+                            <div class="sl-title">ТОЛЬКО 18+</div>
+                        </div>
+                        <div class="sl-wrap">
+                            <div class="sl-title">ТОЛЬКО 18+</div>
+                        </div>
+                        <div class="sl-wrap">
+                            <div class="sl-title">ТОЛЬКО 18+</div>
+                        </div>
+                        <div class="sl-wrap">
+                            <div class="sl-title">ТОЛЬКО 18+</div>
+                        </div>
+                        <div class="sl-wrap">
+                            <div class="sl-title">ТОЛЬКО 18+</div>
+                        </div>
+                        <div class="sl-wrap">
+                            <div class="sl-title">ТОЛЬКО 18+</div>
+                        </div>
+                        <div class="sl-wrap">
+                            <div class="sl-title">ТОЛЬКО 18+</div>
+                        </div>
+                        <div class="sl-wrap">
+                            <div class="sl-title">ТОЛЬКО 18+</div>
+                        </div>
+                        <div class="sl-wrap">
+                            <div class="sl-title">ТОЛЬКО 18+</div>
+                        </div>
+                        <div class="sl-wrap">
+                            <div class="sl-title">ТОЛЬКО 18+</div>
+                        </div>
+                        <div class="sl-wrap">
+                            <div class="sl-title">ТОЛЬКО 18+</div>
+                        </div>
+                        <div class="sl-wrap">
+                            <div class="sl-title">ТОЛЬКО 18+</div>
+                        </div>
+                        <div class="sl-wrap">
+                            <div class="sl-title">ТОЛЬКО 18+</div>
+                        </div>
+                        <div class="sl-wrap">
+                            <div class="sl-title">ТОЛЬКО 18+</div>
+                        </div>
+                        <div class="sl-wrap">
+                            <div class="sl-title">ТОЛЬКО 18+</div>
+                        </div>
+                        <div class="sl-wrap">
+                            <div class="sl-title">ТОЛЬКО 18+</div>
+                        </div>
+                        <div class="sl-wrap">
+                            <div class="sl-title">ТОЛЬКО 18+</div>
+                        </div>
+                        <div class="sl-wrap">
+                            <div class="sl-title">ТОЛЬКО 18+</div>
+                        </div>
+                        <div class="sl-wrap">
+                            <div class="sl-title">ТОЛЬКО 18+</div>
+                        </div>
+                        <div class="sl-wrap">
+                            <div class="sl-title">ТОЛЬКО 18+</div>
+                        </div>
+                        <div class="sl-wrap">
+                            <div class="sl-title">ТОЛЬКО 18+</div>
+                        </div>
+                        <div class="sl-wrap">
+                            <div class="sl-title">ТОЛЬКО 18+</div>
+                        </div>
+                        <div class="sl-wrap">
+                            <div class="sl-title">ТОЛЬКО 18+</div>
+                        </div>
+                        <div class="sl-wrap">
+                            <div class="sl-title">ТОЛЬКО 18+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/line-slider-box-->
+
+
         <!-- page -->
-        <div class="page">
-            2222
+        <div class="page-full">
+
+            <!--actions-box-->
+            <div class="actions-box">
+                <div class="title-box title-center">
+                    <h2 class="h1-title">Наши программы</h2>
+                </div>
+                <div class="items-wrap">
+                    <!--item wrap-->
+                    <div class="item-wrap wrap-main">
+                        <a href="" class="elm-photo photo-cover">
+                            <img src="./img/action.jpg" alt="">
+                        </a>
+                    </div>
+                    <!--/item wrap-->
+                    <!--item wrap-->
+                    <div class="item-wrap wrap-second">
+                        <a href="" class="item-tile-action">
+                            <span class="tile-photo-wrap">
+                                <span class="tile-photo photo-cover">
+                                    <img src="./img/action01.jpg" alt="">
+                                </span>
+                            </span>
+                            <span class="tile-info-wrap">
+                                <span class="tile-info">Второй мастер в душ <i>бесплатно</i>!</span>
+                            </span>
+                        </a>
+                        <a href="" class="item-tile-action">
+                            <span class="tile-photo-wrap">
+                                <span class="tile-photo photo-cover">
+                                    <img src="./img/action02.jpg" alt="">
+                                </span>
+                            </span>
+                            <span class="tile-info-wrap">
+                                <span class="tile-info">Скидка на бар <span class="tile-discount">-30%</span></span>
+                            </span>
+                        </a>
+                    </div>
+                    <!--/item wrap-->
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <a href="" class="item-tile-action">
+                            <span class="tile-photo-wrap">
+                                <span class="tile-photo photo-cover">
+                                    <img src="./img/action03.jpg" alt="">
+                                </span>
+                            </span>
+                            <span class="tile-info-wrap">
+                                <span class="tile-info">Текст акции</span>
+                            </span>
+                        </a>
+                    </div>
+                    <!--/item wrap-->
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <a href="" class="item-tile-action">
+                            <span class="tile-photo-wrap">
+                                <span class="tile-photo photo-cover">
+                                    <img src="./img/action04.jpg" alt="">
+                                </span>
+                            </span>
+                            <span class="tile-info-wrap">
+                                <span class="tile-info">Текст акции</span>
+                            </span>
+                        </a>
+                    </div>
+                    <!--/item wrap-->
+                    <!--item wrap-->
+                    <div class="item-wrap wrap-last">
+                        <a href="" class="item-tile-action">
+                            <span class="tile-photo-wrap">
+                                <span class="tile-photo photo-cover">
+                                    <img src="./img/action05.jpg" alt="">
+                                </span>
+                            </span>
+                            <span class="tile-info-wrap">
+                                <span class="tile-info"><b>Живой показ free!</b></span>
+                            </span>
+                        </a>
+                    </div>
+                    <!--/item wrap-->
+                </div>
+                <div class="more-box">
+                    <a href="" class="btn button-second button-border">Посмотреть все акции</a>
+                </div>
+            </div>
+            <!--/actions-box-->
+
+            <!--info-box-->
+            <div class="info-box">
+                <div class="items-wrap">
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <div class="item-tile-info">
+                            <div class="tile-ico">
+                                <img src="./img/icons/info01.png" alt="">
+                            </div>
+                            <div class="tile-title">100% <br>конфиденциально</div>
+                        </div>
+                    </div>
+                    <!--/item wrap-->
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <div class="item-tile-info">
+                            <div class="tile-ico">
+                                <img src="./img/icons/info02.png" alt="">
+                            </div>
+                            <div class="tile-title">Топ мастера <br>со&nbsp;всей России</div>
+                        </div>
+                    </div>
+                    <!--/item wrap-->
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <div class="item-tile-info">
+                            <div class="tile-ico">
+                                <img src="./img/icons/info03.png" alt="">
+                            </div>
+                            <div class="tile-title">Индивидуальный <br>подход</div>
+                        </div>
+                    </div>
+                    <!--/item wrap-->
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <div class="item-tile-info">
+                            <div class="tile-ico">
+                                <img src="./img/icons/info04.png" alt="">
+                            </div>
+                            <div class="tile-title">Круглосуточно</div>
+                        </div>
+                    </div>
+                    <!--/item wrap-->
+                </div>
+            </div>
+            <!--/info-box-->
+
+            <!--price-box-->
+            <div class="price-box section-main">
+                <div class="title-box title-center">
+                    <h2 class="h1-title">Наши программы</h2>
+                    <p>Выберите что-то из предолженных программ или проконсультируйтесь с нами</p>
+                </div>
+                <div class="items-wrap">
+                    <!--item wrap-->
+                    <div class="item-wrap wrap-main">
+                        <div class="item-tile-price tile-main">
+                            <a href="" class="tile-link"></a>
+                            <div class="tile-photo-wrap">
+                                <div class="tile-photo photo-cover">
+                                    <img src="./img/pr.jpg" alt="">
+                                </div>
+                                <div class="tile-sticker">Программа месяца</div>
+                            </div>
+                            <div class="tile-inner-wrap">
+                                <div class="tile-inner-title-wrap">
+                                    <div class="tile-title">
+                                        <div class="tile-title-inner">Эго Man</div>
+                                        <div class="tile-ico">
+                                            <img src="./img/icons/fire.png" alt="">
+                                        </div>
+                                    </div>
+                                    <p>Уникальная программа стимулирует сексуальную энергию мужчины. Мастер поможет почувствовать вам самые блажные эмоции, которых вы раньше не пробовали! Вы погрузитесь в полую эйфорию наслаждения!</p>
+                                </div>
+                                <div class="tile-inner-price-wrap">
+                                    <div class="tile-price">7450 руб.</div>
+                                    <div class="tile-time">70 минут</div>
+                                </div>
+                            </div>
+                            <div class="tile-action-wrap">
+                                <a href="" class="btn button-gold js-popup-open" data-popup="popup-order">Оставить заявку</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/item wrap-->
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <a href="" class="item-tile-price">
+                            <span class="tile-title-wrap">
+                                <span class="tile-title">Кофе брейк</span>
+                            </span>
+                            <span class="tile-photo-wrap">
+                                <span class="tile-photo photo-cover">
+                                    <img src="./img/price01.jpg" alt="">
+                                </span>
+                            </span>
+                            <span class="tile-info-wrap">
+                                <span class="tile-info">Никогда не поздно сделать перерыв порадовать себя бодрящей дозой расслабляющего реклакса от&nbsp;прекрасной леди будь это утро либо...</span>
+                            </span>
+                            <span class="tile-price-wrap">
+                                <span class="tile-price">3000 руб.</span>
+                                <span class="tile-period">30 минут</span>
+                            </span>
+                        </a>
+                    </div>
+                    <!--/item wrap-->
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <a href="" class="item-tile-price">
+                            <span class="tile-title-wrap">
+                                <span class="tile-title">Тайский релакс</span>
+                            </span>
+                            <span class="tile-photo-wrap">
+                                <span class="tile-photo photo-cover">
+                                    <img src="./img/price02.jpg" alt="">
+                                </span>
+                            </span>
+                            <span class="tile-info-wrap">
+                                <span class="tile-info">В этой программе вы прикоснетесь к таинству тайских релаксов, где прочувствуете на себе настоящее расслабление и блаженство...</span>
+                            </span>
+                            <span class="tile-price-wrap">
+                                <span class="tile-price">3000 руб.</span>
+                                <span class="tile-period">30 минут</span>
+                            </span>
+                        </a>
+                    </div>
+                    <!--/item wrap-->
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <a href="" class="item-tile-price">
+                            <span class="tile-title-wrap">
+                                <span class="tile-title">Светская львица</span>
+                            </span>
+                            <span class="tile-photo-wrap">
+                                <span class="tile-photo photo-cover">
+                                    <img src="./img/price03.jpg" alt="">
+                                </span>
+                            </span>
+                            <span class="tile-info-wrap">
+                                <span class="tile-info">Если вы хотите ощутить на себе не просто прикосновение упругого тела и нежных рук девушки, но и почувствовать ее страсть...</span>
+                            </span>
+                            <span class="tile-price-wrap">
+                                <span class="tile-price">3000 руб.</span>
+                                <span class="tile-period">30 минут</span>
+                            </span>
+                        </a>
+                    </div>
+                    <!--/item wrap-->
+                </div>
+            </div>
+            <!--/price-box-->
+
+            <!--about-box-->
+            <div class="about-box">
+                <div class="photo-inner-wrap">
+                    <img src="./img/about.jpg" alt="" class="img-bg-cover">
+                </div>
+                <div class="text-inner-wrap">
+                    <h2 class="h1-title title-decor">Салон эротического релакса «Relax»</h2>
+                    <p><i>А знаете ли вы, что сексуальная энергия человека влияет на его психологическое состояние?</i></p>
+                    <p>Иногда сексуальную энергию необходимо освобождать наружу и лучшим способом для этого считается эротический релакс, при этом хотим напомнить что наш салон не предоставляет интим услуги! Это строго ЗАПРЕЩЕНО.</p>
+                    <p>Эротический релакс не зря называют чувственным, ведь он состоит из многочисленных тактильных движений, которые по-разному действуют на тело мужчины. Если мастер производит поглаживающие движения, они полностью расслабляют организм. <br>А вот интенсивные движения способны стимулировать мышцы...</p>
+                    <div class="text-hidden-wrap">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, atque, deleniti ducimus ex magni minus perferendis perspiciatis saepe temporibus totam vel voluptas? Aspernatur atque inventore possimus quae quia. At atque doloribus et ipsum iste iure, omnis pariatur praesentium provident quaerat!</p>
+                    </div>
+                    <div class="text-link-wrap">
+                        <a href="" data-show="Читать полностью" data-hide="Скрыть"></a>
+                    </div>
+                </div>
+                <div class="info-inner-wrap">
+                    <h2 class="h1-title title-decor">О нашем салоне</h2>
+                    <p>Relax - уютный спа-бутик, расположен в некскольких локациях города. Салон выполнен в натуральных тонах и использованием природных материалов: дерево, бамбук, тростник, морские камни, мох, что поможет Вам ощутить себя в безопасности и комфорте, почувствовать себя наедине с собой и природой</p>
+                </div>
+            </div>
+            <!--/about-box-->
+
+
         </div>
         <!-- /page -->
 
@@ -38,17 +519,140 @@
         <!-- footer -->
         <footer class="footer">
             <div class="inner-wrap">
-                333333
+                <div class="footer-main-panel">
+                    <div class="info-inner-wrap">
+                        <div class="h1-title">Контакты</div>
+                        <div class="contacts-wrap">
+                            <div class="cnt-wrap">
+                                <div class="cnt-title">
+                                    Адрес:
+                                    <div class="elm-ico">
+                                        <img src="./img/icons/location.png" alt="">
+                                    </div>
+                                </div>
+                                <p>г. Саратов, пр-т Энтузиастов 50</p>
+                            </div>
+                            <div class="cnt-wrap">
+                                <div class="cnt-title">
+                                    Телефон:
+                                    <div class="elm-ico">
+                                        <img src="./img/icons/phone.png" alt="">
+                                    </div>
+                                </div>
+                                <p>
+                                    <a href="tel:460112" class="link-phone">46-01-12</a>
+                                    <span class="cnt-sep">/</span>
+                                    <a href="tel:89371427319" class="link-phone">+79371427319</a>
+                                </p>
+                            </div>
+                            <div class="cnt-wrap">
+                                <div class="cnt-title">
+                                    Оплата:
+                                    <div class="elm-ico">
+                                        <img src="./img/icons/pay.png" alt="">
+                                    </div>
+                                </div>
+                                <p>Принимаем к оплате</p>
+                                <p>
+                                    <img src="./img/icons/pay01.png" alt="">
+                                    <img src="./img/icons/pay02.png" alt="">
+                                </p>
+                            </div>
+                        </div>
+                        <div class="soc-wrap">
+                            <a href="" class="btn-action-ico button-soc">
+                                <img src="./img/icons/soc01.png" alt="">
+                            </a>
+                            <a href="" class="btn-action-ico button-soc">
+                                <img src="./img/icons/soc02.png" alt="">
+                            </a>
+                            <a href="" class="btn-action-ico button-soc">
+                                <img src="./img/icons/soc03.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="map-inner-wrap">
+                        <script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=-eov8YMYfEHTrqs_Q1kKzkBJYs6HKSuT&width=100%25&height=100%25&lang=ru_RU&sourceType=constructor"></script>
+                    </div>
+                </div>
+                <div class="footer-bottom-panel">
+                    <div class="info-wrap">2023</div>
+                    <div class="info-wrap">
+                        <a href="" class="link-main">Политика конфиденциальности</a>
+                    </div>
+                    <div class="info-wrap">
+                        <a href="">Создание сайта</a>
+                    </div>
+                </div>
             </div>
         </footer>
         <!-- /footer -->
+
+
+        <div class="popup-outer-box" id="popup-order">
+            <div class="popup-box">
+                <a href="" class="btn-action-ico ico-close js-popup-close"></a>
+                <div class="popup-content-wrap">
+                    <img src="./img/popup.jpg" alt="" class="img-bg-cover">
+                    <div class="popup-form-wrap">
+                        <form action="/" class="frm-popup">
+                            <div class="frm-title-wrap">
+                                <div class="frm-title">Забронировать мастера</div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                            </div>
+                            <div class="frm-inner">
+                                <div class="frm-row">
+                                    <div class="frm-field-input inp-valid">
+                                        <div class="field-title">
+                                            <div class="field-title-text">Как к вам обращаться?</div>
+                                        </div>
+                                        <input type="text" class="form-input" placeholder="Иван Иванов" value="Иван Иванов">
+                                        <div class="frm-ico">
+                                            <img src="./img/icons/frm-user.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="frm-row">
+                                    <div class="frm-field-input">
+                                        <div class="field-title">
+                                            <div class="field-title-text">Ваш телефон:</div>
+                                        </div>
+                                        <input type="tel" class="form-input" placeholder="+7 000 00-00-00">
+                                        <div class="frm-ico">
+                                            <img src="./img/icons/frm-phone.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="frm-row">
+                                    <div class="frm-field-input">
+                                        <div class="field-title">
+                                            <div class="field-title-text">Сумма депозита:</div>
+                                        </div>
+                                        <input type="text" class="form-input" placeholder="5 000 руб.">
+                                        <div class="frm-ico">
+                                            <img src="./img/icons/frm-pay.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="frm-row-submit">
+                                    <div class="frm-field field-submit">
+                                        <button type="submit" class="btn button-gold">Оплатить</button>
+                                    </div>
+                                    <div class="frm-field field-info">Даю согласие на обработку своих <a href="" class="link-main">персональных данных</a></div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div><!--/popup-outer-box-->
 
     </div>
     <!-- /wrap -->
 
     <script src="./js/jquery.min.js"></script>
-    <script src="./js/jquery.fancybox.min.js"></script>
     <script src="./js/slick.min.js"></script>
+    <script src="./js/jquery.swipebox.min.js"></script>
     <script src="./js/jquery.maskedinput.min.js"></script>
     <script src="./js/scripts.js"></script>
 
